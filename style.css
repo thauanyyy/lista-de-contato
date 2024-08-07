@@ -1,0 +1,59 @@
+/* Estilos básicos para o container */
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Estilo do formulário */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo da lista de contatos */
+#listaContatos {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaContatos li {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+}
+
+#listaContatos li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#listaContatos li button:hover {
+    background-color: #da190b;
+}
+
